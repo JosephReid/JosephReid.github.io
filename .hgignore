@@ -1,0 +1,25 @@
+syntax: glob
+
+*.suo
+*.obj
+*.tlog
+*.log
+*.pdb
+*.idb
+*.user
+*.ipch
+*.ilk
+*.sdf
+*.opensdf
+*.manifest
+*manifest.rc
+*.res
+*.cache
+*.lastbuildstate
+*.config
+*/Debug/
+*/Release/
+*/.idea/
+*/uploads/*.xml
+*/uploads/tmp/
+*/.sass-cache/

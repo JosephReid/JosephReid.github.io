@@ -1,0 +1,182 @@
+html,
+body,
+.view,
+.viewXDRM,
+.viewDW,
+.viewSheep,
+.viewPuzzleKings,
+.viewSnake,
+.viewFTH,
+.viewSeedling,
+.viewFantasyShift,
+.viewAA {
+  height: 100%; }
+
+body {
+  position: relative;
+  overflow-y: scroll !important; }
+
+.view, .viewXDRM, .viewDW, .viewSheep, .viewPuzzleKings, .viewSnake, .viewFTH, .viewSeedling, .viewFantasyShift, .viewAA {
+  background: url("../img/WebBackground.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.viewXDRM {
+  background: url("../img/XDRMLogo.png") no-repeat center center; }
+
+.viewDW {
+  background: url("../img/DoctorWhoBG.png") no-repeat center center; }
+
+.viewSheep {
+  background: url("../img/CountingSheepBG.png") no-repeat center center; }
+
+.viewPuzzleKings {
+  background: url("../img/PuzzleKingsLogo.png") no-repeat center center; }
+
+.viewSnake {
+  background: url("../img/SnakeLogo.png") no-repeat center center; }
+
+.viewFTH {
+  background: url("../img/FTHBackground.png") no-repeat center center; }
+
+.viewSeedling {
+  background: url("../img/SeedlingBackground.png") no-repeat center center; }
+
+.viewFantasyShift {
+  background: url("../img/FantasyShiftBackground.png") no-repeat center center; }
+
+.viewAA {
+  background: url("../img/AdventureAwaitsBackground.png") no-repeat center center; }
+
+.full-width-container {
+  width: 100%; }
+
+.flex-center {
+  color: #fff; }
+
+.headshotImage {
+  width: 100%; }
+
+.row-margins {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.row-padding {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.row-padding-small {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.row-padding-small-top {
+  padding-top: 25px; }
+
+.row-padding-small-bottom {
+  padding-bottom: 25px; }
+
+.row-padding-smallest {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.row-padding-bottom {
+  padding-bottom: 50px; }
+
+.row-padding-top {
+  padding-top: 50px; }
+
+.row-top {
+  margin-top: 50px; }
+
+.row-bottom {
+  margin-bottom: 50px; }
+
+.no-margin {
+  margin: 0px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; }
+
+.scrolling-navbar {
+  -webkit-transition: background .3s ease-in-out, padding .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out, padding .3s ease-in-out;
+  transition: background .3s ease-in-out, padding .3s ease-in-out; }
+
+.top-nav-collapse {
+  background-color: #bd3939; }
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #bd3939; } }
+.logo-image {
+  max-width: 60%;
+  height: auto; }
+
+@media only screen and (max-width: 768px) {
+  .logo-image {
+    max-width: 100%;
+    height: auto; } }
+.bg-lightGrey {
+  background-color: #f1f1f1; }
+
+.bg-lightBlue {
+  background-color: #aed9fc; }
+
+.bg-midBlue {
+  background-color: #2D96A9; }
+
+.bg-seedling {
+  background-color: #43ABBF; }
+
+.bg-fantasyShift {
+  background-color: #131C4C; }
+
+.bg-lightGreen {
+  background-color: #aefcb7; }
+
+.bg-lightYellow {
+  background-color: #E9F567; }
+
+.bg-lightOrange {
+  background-color: #fce1ae; }
+
+.bg-midOrange {
+  background-color: #EE8704; }
+
+.bg-pkOrange {
+  background-color: #FEE22F; }
+
+.bg-lightPink {
+  background-color: #fcaef6; }
+
+.bg-lightPurple {
+  background-color: #d6aefc; }
+
+.bg-navy {
+  background-color: #1e2a5a; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-black {
+  background-color: #000; }
+
+.bg-fth {
+  background-color: #222; }
+
+.rule-white {
+  border-top-color: white; }
+
+.text-black {
+  color: #000 !important; }
+
+.scrollspy-div {
+  position: relative; }
+
+.brand {
+  height: 50px;
+  width: auto; }
+
+/*# sourceMappingURL=Stylesheet.css.map */
