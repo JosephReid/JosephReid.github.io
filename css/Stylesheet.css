@@ -10,11 +10,18 @@ body,
 .viewSeedling,
 .viewFantasyShift,
 .viewAA {
-  height: 100%; }
+  height: 100%;
+}
+
+html {
+  background-color: #222;
+}
 
 body {
   position: relative;
-  overflow-y: scroll !important; }
+  overflow-y: scroll !important;
+  background-color: #222;
+}
 
 .view, .viewXDRM, .viewDW, .viewSheep, .viewPuzzleKings, .viewSnake, .viewFTH, .viewSeedling, .viewFantasyShift, .viewAA {
   background: url("../img/WebBackground.png") no-repeat center center;
@@ -99,17 +106,16 @@ body {
 .navbar-dark .navbar-nav .nav-link {
   color: #fff; }
 
-.scrolling-navbar {
-  -webkit-transition: background .3s ease-in-out, padding .3s ease-in-out;
-  -moz-transition: background .3s ease-in-out, padding .3s ease-in-out;
-  transition: background .3s ease-in-out, padding .3s ease-in-out; }
+.navbar-light {
+  background-color: #fff;
+}
 
 .top-nav-collapse {
-  background-color: #bd3939; }
+  background-color: #fff; }
 
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #bd3939; } }
+    background-color: #fff; } }
 .logo-image {
   max-width: 60%;
   height: auto; }
@@ -163,6 +169,10 @@ body {
 .bg-black {
   background-color: #000; }
 
+.bg-darker {
+  background-color: #111;
+}
+
 .bg-fth {
   background-color: #222; }
 
@@ -172,11 +182,108 @@ body {
 .text-black {
   color: #000 !important; }
 
+.text-dark {
+  color: #222 !important; }
+
+.text-darker {
+  color: #111 !important; }
+
 .scrollspy-div {
   position: relative; }
 
 .brand {
   height: 50px;
   width: auto; }
+
+#logo-main {
+  display: block;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin: 0 auto;
+}
+
+.hor-padding-10 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.navbar {
+  box-shadow: none !important;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer-text {
+  display: inline-block;
+  float: none;
+  margin: 0;
+  color: #777
+}
+
+.RubikLight {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+.Rubik {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+.RubikMedium {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
+
+.RubikBold {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+}
+
+.RubikBlack {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+}
+
+.white-rule {
+  border-color: white;
+  width: 100%;
+  box-shadow: 0 0 10px 1px white;
+  opacity: 0.6;
+}
+
+
+.white-rule.after {  /* Not really supposed to work, but does */
+  content: "\00a0";  /* Prevent margin collapse */
+}
+
+.border-white {
+  border-color: white;
+}
+
+.skill-programs {
+  width: 40%;
+}
+
+
+@media (max-width: 575px) {
+  .skill-programs {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .skill-programs {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=Stylesheet.css.map */
