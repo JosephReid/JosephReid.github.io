@@ -1,0 +1,714 @@
+@font-face {
+    font-family: 'futura_ltbold';
+    src: url('FuturaLT-Bold-webfont.eot');
+    src: url('FuturaLT-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FuturaLT-Bold-webfont.woff2') format('woff2'),
+         url('FuturaLT-Bold-webfont.woff') format('woff'),
+         url('FuturaLT-Bold-webfont.ttf') format('truetype'),
+         url('FuturaLT-Bold-webfont.svg#futura_ltbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	color: #252525;
+	font-family: 'Rubik', 'Trebuchet MS', Arial, sans-serif;
+	background-color: #0d1527;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+.clearfix {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 30pt;
+	margin: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 20pt;
+	max-width: 627px;
+	margin: 0 auto;
+}
+
+h1.dark, p.dark {
+	color: #252525;
+}
+
+.header {
+	position: fixed;
+	z-index: 1;
+	padding: 40px;
+}
+
+.topMenu {	
+	position: fixed;
+	top: 40px;
+	right: 30px;
+}
+
+.topMenu li {
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.gameLinks {
+	margin-top: 5px;
+	display: block;
+	line-height: 20pt;
+	font-size: 11pt;
+}
+
+.gameLinks .active a {
+	color: #c0392b;
+}
+
+.gameLinks .active.blue a {
+	color: #c0392b;
+}
+
+p {
+	font-weight: normal;
+}
+
+a {
+	color: #c0392b;
+}
+
+a:hover {
+	color: #e74c3c;
+}
+
+.intro .logo {
+	display: inline;
+}
+.intro .logoMobile {
+	display: none;
+}
+
+.intro .landingGif {
+	width: 40% !important;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn.home {
+	background-image: url(../img/btn.home.png);
+	width: 67px;
+	height: 67px;
+	display: block;
+	transform: scale(.7,.7);
+}
+
+a.btn.home:hover {
+	background-position-y: -67px;
+}
+
+.iphone.blue {
+	background-image: url(../img/iPhoneTemplate_blue.png);
+}
+
+/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+.fullscreen,
+.content-a {
+    width:100%;
+    min-height:100%;
+}
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+    overflow:hidden;
+}
+
+/* content centering styles */
+.content-a {
+    display:table;
+
+}
+.content-b {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+.content-b .preview {
+	background-image: url(../img/iPhoneTemplate_yellow.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position: center;
+	background-size: contain;
+}
+
+.content-b .preview.desktop {
+	background-image: url(../img/platformDesktop.png);
+}
+
+.content-b .preview.android {
+	background-image: url(../img/platformPhone.png);
+}
+
+.content-b .preview.desktop.blue {
+	background-image: url(../img/desktopTemplate_blue.png);
+}
+
+.content-b .preview.browser {
+	background-image: url(../img/browserTemplate_yellow.png);
+}
+
+.content-b .preview.browser.blue {
+	background-image: url(../img/browserTemplate_blue.png);
+}
+
+.content-b .preview.ipad {
+	background-image: url(../img/iPadTemplate_yellow.png);
+}
+
+.content-b .preview.ipad.blue {
+	background-image: url(../img/iPadTemplate_blue.png);
+}
+
+.content-b .preview.iphone4 {
+	background-image: url(../img/iPhone4Template_yellow.png);
+}
+
+.content-b .preview.iphone.blue {
+	background-image: url(../img/iPhoneTemplate_blue.png);
+}
+
+.content-b .preview video {
+	height: 76%;
+}
+
+.content-b .preview.iphone4 video {
+	height: 73%;
+}
+
+.content-b .preview.ipad video {
+	height: 82%;
+}
+
+.content-b .preview.desktop video {
+	height: 60%;
+}
+
+.content-b .preview.browser video {
+	height: 83%;
+}
+
+.content-b .preview img {
+	height: 100%;
+}
+
+.content-b .intro {
+	padding: 10%;
+}
+
+.content-b .intro > img {
+	width: auto;
+	height : auto;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.buttons {
+	margin: 0 auto;
+	margin-top: 26px;
+}
+
+.buttons a {
+	display: block;	
+	border: 1px solid #c0392b;
+	padding: 15px 25px 15px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	float: left;
+	margin: 10px;
+	margin-top: 0px;	
+}
+
+.buttons.blue a {
+    color: #c0392b;
+	border: 1px solid #c0392b;
+	padding: 15px 25px 15px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	float: left;
+	margin: 10px;
+	margin-top: 0px;	
+}
+
+
+.buttons a:hover {
+	border: 1px solid #e74c3c;
+	color: #e74c3c;
+}
+
+.appButtons {
+	margin: 0 auto;
+}
+
+a.btn.AppStore {
+	background:url(../img/btnAppStore_white.png);
+	width: 177px;
+	height: 53px;
+	display: block;
+}
+
+a.btn.GooglePlay {
+	background:url(../img/btnGooglePlay_white.png);
+	width: 187px;
+	height: 53px;
+	display: block;
+}
+
+a.btn.AppStore.blue {
+	background:url(../img/btnAppStore_blue.png);
+}
+
+a.btn.GooglePlay.blue {
+	background:url(../img/btnGooglePlay_blue.png);
+}
+
+a.btn.AppStore:hover, a.btn.GooglePlay:hover {
+	background-position-y: -53px;
+}
+
+.btn {
+	float: left;
+	margin: 10px;
+}
+
+ul {
+	list-style: none;
+	text-transform: uppercase;
+	padding: 0px;
+	line-height: 22pt;
+}
+
+ul a {
+	text-decoration: none;	
+}
+
+#birdsketball-newsletter {
+	display: block;	
+	padding: 20px 20px 20px 20px;
+	margin: 0 auto;
+	color: #f400ff;
+	text-transform: uppercase;	
+}
+
+#birdsketball-newsletter input {
+	margin: 5px;
+	padding: 10px;
+	color: #f400ff;
+	background-color: #30302d;
+		font-family: 'Rubik', 'Trebuchet MS', Arial, sans-serif;
+	font-size: 12pt;
+		border: 1px solid #f400ff;
+}
+
+#birdsketball-newsletter input[type=submit] {
+	text-transform: uppercase;
+	padding: 10px 25px;
+	cursor: pointer; cursor: hand;
+}
+
+#birdsketball-newsletter input:hover {
+	border: 1px solid #fff;
+	color: white;
+}
+
+#menu_overlay {
+	z-index: 2;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #080c15;
+	opacity: 0;
+	display: none;
+}
+
+#menu_overlay .menu {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#menu_overlay ul {
+	display: inline-block;
+}
+
+#menu_overlay li {
+	/*text-align: center;
+	width: 100%;*/
+	float: left;
+	font-size: 20pt;
+	margin: 20px;
+
+}
+
+.home {
+	width: 67px;
+	height: 67px;
+	display: block;
+	margin-top: -15px;
+	margin-left: -10px;
+	background-image: url(../img/btnHome.png);
+}
+a.home:hover {
+	background-position-y: -67px;
+}
+
+.facebook, .twitter {
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-top: -6px;
+	margin-left: -5px;
+}
+
+.twitter {
+	background-image: url(../img/btnTwitter.png);
+}
+
+.facebook {
+	background-image: url(../img/btnFacebook.png);
+}
+
+.facebook:hover, .twitter:hover {
+	background-position-y: -40px;
+}
+	
+#close_button {
+	position: absolute;
+	top: 40px;
+	right: 51px;
+	width: 33px;
+	height: 33px;
+	background-image: url(../img/btnClose.png);
+	z-index: 3;
+}
+
+#close_button:hover {
+	cursor: pointer;
+	cursor: hand;
+	background-position-y: 33px;
+}
+
+#menu_button {
+	display: none;
+	float: right;
+	width: 55px;
+	height: 33px;
+	background-image: url(../img/btnMenu.png);
+	position: fixed;
+	top: 40px;
+	right: 40px;
+	z-index: 3;
+}
+
+#menu_button:hover {
+	cursor: pointer;
+	cursor: hand;
+	background-position-y: 33px;
+}
+
+/* --------------------------- */
+/* Mobile */
+/* --------------------------- */
+
+@media (max-width:600px) {
+	
+	.buttons {
+		-webkit-transform: scale(0.7, 0.7);
+	}
+
+	#birdsketball-newsletter {
+		-webkit-transform: scale(0.7, 0.7);
+		padding: 0px;
+	}
+	
+	.header {
+		position: relative;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		background: #fff;
+	}
+	
+	.header li {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+			
+	.topMenu {
+		right: 10px;
+		top: -5px;
+		position: relative;
+		margin: 0 auto;
+	}
+
+    .topMenu li {	
+	    font-size: 13px;
+	    margin-right: 10px;
+	    margin-left: 10px;
+	}
+	
+	.facebook, .twitter {
+	    transform: scale(0.7);
+		margin-top: -6px;
+		margin-left: -5px;
+	}
+	
+	.gameLinks, .home {
+		display: none;
+	}
+	#menu_button {
+		display: none;
+		position: relative;
+		margin-top: -33px;
+		margin-right: -10px;
+		-webkit-transform: scale(0.75, 0.75);
+		width: 55px;
+		height: 33px;
+	}
+	#close_button {
+		-webkit-transform: scale(0.75, 0.75);
+		margin-top: -20px;
+		margin-right: -20px;
+	}
+	
+	.content-b {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	
+	section.red {
+		background-color: #fff;
+	}
+	section.black {
+		background-color: #fff;
+	}
+	section.blue {
+		background-color: #fff;
+	}
+	section.purple {
+		background-color: #fff;
+	}
+	section.lightblue {
+		background-color: #fff;
+	}
+	
+	h1 {
+		font-size: 20pt;
+	}
+	h2 {
+		margin-top: 20px;
+		font-size: 14pt;
+		line-height: 22pt;
+	}
+	p {
+		font-size: 10pt;
+		font-weight: normal;
+	}
+	
+	.appButtons a {
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	
+	a.btn {
+		-webkit-transform: scale(0.7, 0.7);
+		margin-right: -20px;
+		margin-left: -20px;
+	}
+	#menu_overlay li {
+		float: none;
+		text-align: center;
+		margin: 40px;
+	}
+	#menu_overlay .facebook, #menu_overlay .twitter {
+		margin: 0 auto;
+	}
+}
+
+	.container {
+		position: relative;
+		width: 100%;
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 0 20px;
+		box-sizing: border-box; }
+	  .column,
+	  .columns {
+		width: 100%;
+		float: left;
+		box-sizing: border-box; }
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+	.container {
+	  width: 85%;
+	  padding: 0; }
+  }
+  
+  /* For devices larger than 550px */
+  @media (min-width: 550px) {
+	.container {
+	  width: 80%; }
+	.column,
+	.columns {
+	  margin-left: 4%; }
+	.column:first-child,
+	.columns:first-child {
+	  margin-left: 0; }
+  
+	.one.column,
+	.one.columns                    { width: 4.66666666667%; }
+	.two.columns                    { width: 13.3333333333%; }
+	.three.columns                  { width: 22%;            }
+	.four.columns                   { width: 30.6666666667%; }
+	.five.columns                   { width: 39.3333333333%; }
+	.six.columns                    { width: 48%;            }
+	.seven.columns                  { width: 56.6666666667%; }
+	.eight.columns                  { width: 65.3333333333%; }
+	.nine.columns                   { width: 74.0%;          }
+	.ten.columns                    { width: 82.6666666667%; }
+	.eleven.columns                 { width: 91.3333333333%; }
+	.twelve.columns                 { width: 100%; margin-left: 0; }
+  
+	.one-third.column               { width: 30.6666666667%; }
+	.two-thirds.column              { width: 65.3333333333%; }
+  
+	.one-half.column                { width: 48%; }
+  
+	/* Offsets */
+	.offset-by-one.column,
+	.offset-by-one.columns          { margin-left: 8.66666666667%; }
+	.offset-by-two.column,
+	.offset-by-two.columns          { margin-left: 17.3333333333%; }
+	.offset-by-three.column,
+	.offset-by-three.columns        { margin-left: 26%;            }
+	.offset-by-four.column,
+	.offset-by-four.columns         { margin-left: 34.6666666667%; }
+	.offset-by-five.column,
+	.offset-by-five.columns         { margin-left: 43.3333333333%; }
+	.offset-by-six.column,
+	.offset-by-six.columns          { margin-left: 52%;            }
+	.offset-by-seven.column,
+	.offset-by-seven.columns        { margin-left: 60.6666666667%; }
+	.offset-by-eight.column,
+	.offset-by-eight.columns        { margin-left: 69.3333333333%; }
+	.offset-by-nine.column,
+	.offset-by-nine.columns         { margin-left: 78.0%;          }
+	.offset-by-ten.column,
+	.offset-by-ten.columns          { margin-left: 86.6666666667%; }
+	.offset-by-eleven.column,
+	.offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+  
+	.offset-by-one-third.column,
+	.offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+	.offset-by-two-thirds.column,
+	.offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+  
+	.offset-by-one-half.column,
+	.offset-by-one-half.columns     { margin-left: 52%; }
+  
+  }
+
+  .button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	color: #000;
+	text-align: center;
+	font-size: 1.4rem;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border-radius: 4px;
+	border: 1px solid #000;
+	cursor: pointer;
+	box-sizing: border-box; 
+  }
+  @media (max-width: 400px) {
+	  .button {
+		  font-size: 12px;
+		  letter-spacing: .075rem;
+		  padding: 0 15px;
+		  width: 100%;
+		  clear: both;
+		  overflow: hidden;
+		  text-overflow: ellipsis;
+	  }
+  }
+  .button:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover,
+  .button:focus,
+  button:focus,
+  input[type="submit"]:focus,
+  input[type="reset"]:focus,
+  input[type="button"]:focus {
+	color: #e74c3c;
+	border-color: #e74c3c;
+	outline: 0;
+	text-decoration: none; }
+  .button.button-primary,
+  button.button-primary,
+  input[type="submit"].button-primary,
+  input[type="reset"].button-primary,
+  input[type="button"].button-primary {
+	color: #FFF;
+	background-color: #c0392b;
+	border-color: #c0392b; }
+  .button.button-primary:hover,
+  button.button-primary:hover,
+  input[type="submit"].button-primary:hover,
+  input[type="reset"].button-primary:hover,
+  input[type="button"].button-primary:hover,
+  .button.button-primary:focus,
+  button.button-primary:focus,
+  input[type="submit"].button-primary:focus,
+  input[type="reset"].button-primary:focus,
+  input[type="button"].button-primary:focus {
+	color: #FFF;
+	background-color: #e74c3c;
+	border-color: #e74c3c; }
+  
