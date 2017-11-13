@@ -479,6 +479,14 @@ hr {
   background-repeat: no-repeat;
 }
 
+.solys{
+  background-image: url("../img/solys/banner.png");
+  background-position: center top;
+  background-color: #282828;
+  background-repeat: no-repeat;
+}
+
+
 .canvas {
     position: absolute;
     z-index: 1;
