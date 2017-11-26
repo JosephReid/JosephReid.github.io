@@ -486,6 +486,13 @@ hr {
   background-repeat: no-repeat;
 }
 
+.ironhans{
+  background-image: url("../img/ironhans/banner.png");
+  background-position: center top;
+  background-color: #282828;
+  background-repeat: no-repeat;
+}
+
 
 .canvas {
     position: absolute;
